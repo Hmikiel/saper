@@ -1,0 +1,44 @@
+td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+.p-1 {
+    color: transparent;
+    background-image: url(bomb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.p0 {
+    color: transparent;
+}
+
+.p1 {
+    color: blue;
+}
+
+.p2 {
+    color: green;
+}
+
+.p3 {
+    color: red;
+}
+
+td button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: pink;
+}
+
+.flag {
+    background-color: red;
+}
