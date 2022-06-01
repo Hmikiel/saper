@@ -1,4 +1,4 @@
-function yeet() {
+function start() {
     start = 0.00;
     document.getElementById("rozmiar").style.display = "none";
     document.getElementById("submit").style.display = "none";
