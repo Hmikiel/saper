@@ -1,4 +1,4 @@
-function start() {
+function start1() {
     start = 0.00;
     document.getElementById("rozmiar").style.display = "none";
     document.getElementById("submit").style.display = "none";
@@ -119,6 +119,7 @@ function start() {
         button.style.display = "none";
         if(t[wiersz][kolumna] == -1){
             alert("przegrałeś");
+            location.reload();
             //window.location.reload(true); //przeładowuje stronę
         }
         if(t[wiersz][kolumna] == 0){
